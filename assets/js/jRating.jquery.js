@@ -132,7 +132,7 @@
 					.css({
 						left: (e.pageX + opts.rateInfosX)
 					})
-					.html(getNote(newWidth) +' <span class="maxRate">/ '+opts.rateMax+'</span>');
+					.html(getNote(newWidth) +' <span class="rateMax">/ '+opts.rateMax+'</span>');
 				},
 				mouseleave : function(){
 					$("p.jRatingInfos").remove();
